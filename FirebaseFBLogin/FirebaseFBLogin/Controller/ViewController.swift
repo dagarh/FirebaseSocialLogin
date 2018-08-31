@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import FBSDKCoreKit
 import FacebookLogin
 import FacebookCore
+import Firebase
 
 class ViewController: UIViewController {
     
@@ -56,7 +58,7 @@ class ViewController: UIViewController {
                 print("GrantedPermissions are: \(grantedPermissions), DeclinedPermissions are : \(declinedPermissions), AccessToken is : \(token)")
                 
                 /* You can call this only when user is successfully logged in. This is used to consume user's data. */
-                self.sendGraphRequest()
+                self.logInUserToFirbaseAndsendGraphRequest()
                 
             case .cancelled :
                 print("Login process cancelled by the user!!!")
@@ -76,8 +78,8 @@ extension ViewController : LoginButtonDelegate {
             print("Successfully logged in with facebook... :]")
             print("GrantedPermissions are: \(grantedPermissions), DeclinedPermissions are : \(declinedPermissions), AccessToken is : \(token)")
             
-            /* You can call this only when user is successfully logged in. This is used to consume user's data. */
-            sendGraphRequest()
+            /* You can call this only when user is successfully logged in. GraphRequest is used to consume user's data. */
+            logInUserToFirbaseAndsendGraphRequest()
             
         case .cancelled :
             print("Login process cancelled by the user!!!")
@@ -88,9 +90,10 @@ extension ViewController : LoginButtonDelegate {
         print("Successfully Logged out with facebook... :]")
     }
     
-    func sendGraphRequest() {
+    func logInUserToFirbaseAndsendGraphRequest() {
+        signInUserToFirebaseUsingFacebookCredentials()
+        
         let connection = GraphRequestConnection()
-    
         connection.add(GraphRequest(graphPath: "/me", parameters: ["fields": "id, name, email"])) { httpResponse, result in
             guard let response = httpResponse, response.statusCode == 200 else {
                 print("Server side error occurred!!! ")
@@ -109,5 +112,20 @@ extension ViewController : LoginButtonDelegate {
             }
         }
         connection.start()
+    }
+    
+    func signInUserToFirebaseUsingFacebookCredentials() {
+        /* We created credentials for the logged in user from FB access token. */
+        let credential = FacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
+        
+        Auth.auth().signInAndRetrieveData(with: credential) { (authResult, error) in
+            if let error = error {
+                print("Error while signing in the user to firebase using credentials created with FB's access token: \(error)")
+                return
+            }
+            
+            // User is signed in
+            print("Successfully logged in : \(String(describing: authResult))")
+        }
     }
 }
