@@ -13,6 +13,8 @@ https://firebase.google.com/ <br>
 https://console.firebase.google.com/ <br>
 https://firebase.google.com/docs/auth/ <br>
 
+<br> In order to deintegrate and clean up pods : https://stackoverflow.com/questions/13751147/remove-or-uninstall-library-previously-added-cocoapods <br>
+
 <br> In order to authenticate using Facebook Login on iOS : <br>
 https://developers.facebook.com/ (For App Dashboard) <br>
 https://developers.facebook.com/docs/ios/getting-started/ (Facebook iOS SDK)<br>
