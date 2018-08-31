@@ -17,7 +17,7 @@ https://firebase.google.com/docs/auth/ <br>
 https://developers.facebook.com/ (For App Dashboard) <br>
 https://developers.facebook.com/docs/ios/getting-started/ (Facebook iOS SDK)<br>
 https://developers.facebook.com/docs/facebook-login/ios (For Objective C) <br>
-https://developers.facebook.com/docs/swift/login (For Swift) <br>
+https://developers.facebook.com/docs/swift (For Swift) <br>
 https://firebase.google.com/docs/auth/ios/facebook-login (Authentication on firebase using FB credentials)<br>
 
 
