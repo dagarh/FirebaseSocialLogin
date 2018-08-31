@@ -6,6 +6,12 @@ target 'FirebaseFBLogin' do
   use_frameworks!
 
   # Pods for FirebaseFBLogin
+  pod 'FBSDKCoreKit', '4.35'
+  pod 'FBSDKLoginKit', '4.35'
+  pod 'FBSDKShareKit', '4.35'
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FacebookShare'
   pod 'Firebase/Auth'
 
 end

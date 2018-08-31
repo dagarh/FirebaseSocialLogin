@@ -14,7 +14,7 @@
 		015142EA21393D39007DCF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 015142E821393D39007DCF19 /* LaunchScreen.storyboard */; };
 		015142F821394073007DCF19 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 015142F721394073007DCF19 /* Default-568h@2x.png */; };
 		015142FA21394253007DCF19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 015142F921394253007DCF19 /* GoogleService-Info.plist */; };
-		9E30E7B7C8F3B9F7A3DE484D /* Pods_FirebaseFBLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7848CF8C97AA014FC08C27 /* Pods_FirebaseFBLogin.framework */; };
+		15AD2723DBD915247BF20783 /* Pods_FirebaseFBLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD2E634C36EECC64CB1D311 /* Pods_FirebaseFBLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		015142EB21393D39007DCF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		015142F721394073007DCF19 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		015142F921394253007DCF19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		3A7848CF8C97AA014FC08C27 /* Pods_FirebaseFBLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseFBLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8332A081F226313A02D364F9 /* Pods-FirebaseFBLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseFBLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseFBLogin/Pods-FirebaseFBLogin.release.xcconfig"; sourceTree = "<group>"; };
-		E8599EFE8A8974E924F6CE1E /* Pods-FirebaseFBLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseFBLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseFBLogin/Pods-FirebaseFBLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		08B95D6108599C1A473BD519 /* Pods-FirebaseFBLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseFBLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseFBLogin/Pods-FirebaseFBLogin.release.xcconfig"; sourceTree = "<group>"; };
+		3C6AC28B9AFBF96B688FA18C /* Pods-FirebaseFBLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseFBLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseFBLogin/Pods-FirebaseFBLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		ECD2E634C36EECC64CB1D311 /* Pods_FirebaseFBLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseFBLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E30E7B7C8F3B9F7A3DE484D /* Pods_FirebaseFBLogin.framework in Frameworks */,
+				15AD2723DBD915247BF20783 /* Pods_FirebaseFBLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,8 +50,8 @@
 				015142F721394073007DCF19 /* Default-568h@2x.png */,
 				015142DE21393D37007DCF19 /* FirebaseFBLogin */,
 				015142DD21393D37007DCF19 /* Products */,
-				3E8BC30318EC2550C09BA616 /* Pods */,
-				74D6D7BF0906EDB36B7F03DE /* Frameworks */,
+				33755416964C22910F14E4B1 /* Pods */,
+				5D427E9B6C947463EF8279E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,19 +117,19 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3E8BC30318EC2550C09BA616 /* Pods */ = {
+		33755416964C22910F14E4B1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E8599EFE8A8974E924F6CE1E /* Pods-FirebaseFBLogin.debug.xcconfig */,
-				8332A081F226313A02D364F9 /* Pods-FirebaseFBLogin.release.xcconfig */,
+				3C6AC28B9AFBF96B688FA18C /* Pods-FirebaseFBLogin.debug.xcconfig */,
+				08B95D6108599C1A473BD519 /* Pods-FirebaseFBLogin.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		74D6D7BF0906EDB36B7F03DE /* Frameworks */ = {
+		5D427E9B6C947463EF8279E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3A7848CF8C97AA014FC08C27 /* Pods_FirebaseFBLogin.framework */,
+				ECD2E634C36EECC64CB1D311 /* Pods_FirebaseFBLogin.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,11 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 015142EE21393D39007DCF19 /* Build configuration list for PBXNativeTarget "FirebaseFBLogin" */;
 			buildPhases = (
-				97DF1A880B23295F06C9E27B /* [CP] Check Pods Manifest.lock */,
+				71C32D4EDDB1B674D2464A6F /* [CP] Check Pods Manifest.lock */,
 				015142D821393D37007DCF19 /* Sources */,
 				015142D921393D37007DCF19 /* Frameworks */,
 				015142DA21393D37007DCF19 /* Resources */,
-				0F194030DF25E7A2DEAE8148 /* [CP] Embed Pods Frameworks */,
+				7C137135F4F5B59D84854DFA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,27 +205,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F194030DF25E7A2DEAE8148 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseFBLogin/Pods-FirebaseFBLogin-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseFBLogin/Pods-FirebaseFBLogin-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		97DF1A880B23295F06C9E27B /* [CP] Check Pods Manifest.lock */ = {
+		71C32D4EDDB1B674D2464A6F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,6 +221,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C137135F4F5B59D84854DFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseFBLogin/Pods-FirebaseFBLogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseFBLogin/Pods-FirebaseFBLogin-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -393,7 +407,7 @@
 		};
 		015142EF21393D39007DCF19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8599EFE8A8974E924F6CE1E /* Pods-FirebaseFBLogin.debug.xcconfig */;
+			baseConfigurationReference = 3C6AC28B9AFBF96B688FA18C /* Pods-FirebaseFBLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -412,7 +426,7 @@
 		};
 		015142F021393D39007DCF19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8332A081F226313A02D364F9 /* Pods-FirebaseFBLogin.release.xcconfig */;
+			baseConfigurationReference = 08B95D6108599C1A473BD519 /* Pods-FirebaseFBLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
