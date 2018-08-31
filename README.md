@@ -6,7 +6,9 @@ https://firebase.google.com/ <br>
 https://console.firebase.google.com/ <br>
 https://firebase.google.com/docs/auth/ <br>
 
-  
+In order to authenticate using Facebook Login on iOS : <br>
+https://firebase.google.com/docs/auth/ios/facebook-login <br><br>
+Similarly you can see the same for authentication using Google, Twitter, Github, Email Link and Phone Number from below link: <br> https://firebase.google.com/docs/auth/ios/start 
   
   
   
