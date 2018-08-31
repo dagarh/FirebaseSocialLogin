@@ -14,7 +14,7 @@ https://console.firebase.google.com/ <br>
 https://firebase.google.com/docs/auth/ <br>
 
 <br> In order to authenticate using Facebook Login on iOS : <br>
-https://developers.facebook.com/docs/ios/getting-started/ <br>
+https://developers.facebook.com/docs/ios/getting-started/ (Facebook iOS SDK)<br>
 https://firebase.google.com/docs/auth/ios/facebook-login <br>
 https://developers.facebook.com/docs/facebook-login/ios <br>
 https://developers.facebook.com/ <br>
