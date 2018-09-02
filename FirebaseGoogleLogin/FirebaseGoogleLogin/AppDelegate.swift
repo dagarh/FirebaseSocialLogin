@@ -32,9 +32,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 
+
 extension AppDelegate : GIDSignInDelegate {
-    
-    
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error?) {
         /* This method would be called when user is signed in */
         if let error = error {
