@@ -22,6 +22,11 @@ https://developers.facebook.com/docs/facebook-login/ios (For Objective C) <br>
 https://developers.facebook.com/docs/swift (For Swift) <br>
 https://firebase.google.com/docs/auth/ios/facebook-login (Authentication on firebase using FB credentials)<br>
 
+<br> In order to authenticate using Google Login on iOS : <br>
+https://firebase.google.com/docs/auth/ios/google-signin <br>
+https://developers.google.com/identity/sign-in/ios/ <br>
+https://developers.google.com/identity/sign-in/ios/start?ver=swift <br>
+https://developers.google.com/identity/sign-in/ios/start-integrating <br>
 
 <br> Similarly you can see the same for authentication using Google, Twitter, Github, Email Link and Phone Number from below link: <br> https://firebase.google.com/docs/auth/ios/start 
   
